@@ -1,6 +1,6 @@
 * {
   font-family: JetbrainsMono Nerd Font;
-  font-size: 10px;
+  font-size: 14px;
   min-height: 0;
   padding-right: 2px;
   padding-left: 2px;
@@ -13,11 +13,13 @@
   margin: 2px 2px;
 }
 
+
+
 #workspaces {
-  border-radius: 5px;
+  border-radius: 0px 20px 20px 0px;
   margin: 5px;
   background: #101010;
-  margin-left: 2px;
+  margin-left: 0px;
 }
 
 #workspaces button {
@@ -52,16 +54,22 @@ button {
 #custom-lock,
 #custom-power,
 #custom-weather,
-#custom-uptime,
-#custom-docker {
+#custom-uptime {
   background-color: #101010;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
+
+#custom-arch {
+  background-color: #101010;
+  border-radius: 20px 0px 0px 20px;
   padding: 0.5rem 1rem;
   margin: 5px 0;
 }
 
 #clock {
   color: #8caaee;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 #custom-weather {
@@ -93,16 +101,12 @@ button {
 
 #pulseaudio {
   color: #ea999c;
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 20px 0px 0px 20px;
 }
 
-#custom-docker {
-  color: #85c1dc;
-}
 
 #custom-music {
   color: #ca9ee6;
-  border-radius: 5px;
 }
 
 #custom-lock {
@@ -111,21 +115,10 @@ button {
 
 #custom-power {
   margin-right: 1rem;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 20px 20px 0px;
   color: #e78284;
 }
 
-#custom-docker.docker {
-  color: #85c1dc;
-}
-
-#custom-docker.docker-none {
-  color: #737994;
-}
-
-#custom-docker.docker-error {
-  color: #e78284;
-}
 
 #custom-weather.clear {
   color: #e5c890; /* Sunny yellow */
