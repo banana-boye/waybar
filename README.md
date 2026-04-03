@@ -1,5 +1,5 @@
 # Simple waybar config
-
+> an edited version of victordantasdev's waybar config, made to be more rounded and for personal use
 > for this config i recommend install [JetbrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip)
 
 ## Table of Contents

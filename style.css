@@ -18,7 +18,7 @@
 #workspaces {
   border-radius: 0px 20px 20px 0px;
   margin: 5px;
-  background: #101010;
+  background: rgba(16, 16, 16, 0.7);
   margin-left: 0px;
 }
 
@@ -55,13 +55,15 @@ button {
 #custom-power,
 #custom-weather,
 #custom-uptime {
-  background-color: #101010;
+  background-color: rgba(16, 16, 16, 0.7);
   padding: 0.5rem 1rem;
   margin: 5px 0;
 }
 
 #custom-arch {
-  background-color: #101010;
+  color: #99d1db;
+  font-size: 18;
+  background-color: rgba(16, 16, 16, 0.7);
   border-radius: 20px 0px 0px 20px;
   padding: 0.5rem 1rem;
   margin: 5px 0;
